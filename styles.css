@@ -24,7 +24,7 @@ body{
 img{display:block;max-width:100%}
 a{color:inherit;text-decoration:none}
 .wrap{width:min(1100px,calc(100% - 36px));margin:0 auto}
-.section{padding:76px 0}
+.section{padding:58px 0}
 .cream{background:var(--cream)}
 .parchment{background:var(--parchment)}
 .forest{background:var(--forest);color:#f4ecdd}
@@ -38,7 +38,7 @@ a{color:inherit;text-decoration:none}
   align-items:center;
   justify-content:space-between;
   gap:24px;
-  padding:24px 0;
+  padding:20px 0;
 }
 .brand-name{
   text-transform:uppercase;
@@ -73,12 +73,12 @@ a{color:inherit;text-decoration:none}
 .hero-inner{
   position:relative;
   z-index:1;
-  min-height:620px;
+  min-height:520px;
   display:grid;
   grid-template-columns:minmax(300px,.82fr) minmax(0,1.18fr);
-  gap:58px;
+  gap:44px;
   align-items:center;
-  padding:54px 0 72px;
+  padding:36px 0 48px;
 }
 .hero-copy{max-width:690px}
 .eyebrow,.section-kicker{
@@ -92,7 +92,7 @@ a{color:inherit;text-decoration:none}
   margin:0 0 20px;
   max-width:610px;
   font-weight:400;
-  font-size:clamp(2.15rem,3.8vw,3.45rem);
+  font-size:clamp(1.95rem,3.2vw,2.8rem);
   line-height:1.08;
 }
 .hero-line{
@@ -107,11 +107,11 @@ a{color:inherit;text-decoration:none}
   align-items:center;
 }
 .hero-seal img{
-  width:min(430px,96%);
+  width:min(520px,100%);
   aspect-ratio:1 / 1;
   object-fit:cover;
   border-radius:50%;
-  clip-path:circle(48% at 50% 50%);
+  clip-path:circle(46.2% at 50% 50%);
   filter:drop-shadow(0 18px 32px rgba(0,0,0,.22));
 }
 .button-row{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
@@ -144,24 +144,24 @@ h2{
   margin:0 0 20px;
   font-weight:400;
   line-height:1.08;
-  font-size:clamp(2rem,3.5vw,3rem);
+  font-size:clamp(1.7rem,2.8vw,2.35rem);
 }
 h3{
   margin:0 0 9px;
   font-weight:400;
   line-height:1.15;
-  font-size:1.35rem;
+  font-size:1.2rem;
 }
 p{margin:0 0 16px;font-size:1.05rem}
 
 .two-up{
   display:grid;
   grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:26px;
+  gap:20px;
 }
 .about-grid{align-items:stretch}
 .quiet-card{
-  padding:30px 32px;
+  padding:18px 22px;
   border:1px solid rgba(112,95,63,.12);
   border-radius:18px;
   background:rgba(255,255,255,.24);
@@ -175,13 +175,13 @@ p{margin:0 0 16px;font-size:1.05rem}
 .quote-card p{
   margin:0;
   max-width:430px;
-  font-size:clamp(1.8rem,3vw,2.5rem);
+  font-size:clamp(1.5rem,2.4vw,2rem);
   line-height:1.22;
   font-style:italic;
   color:#605944;
 }
 
-.item-grid,.offering-grid{margin-top:34px}
+.item-grid,.offering-grid{margin-top:26px}
 .item-grid article{
   padding:24px 26px;
   border-top:1px solid rgba(112,95,63,.25);
@@ -189,7 +189,7 @@ p{margin:0 0 16px;font-size:1.05rem}
 .item-grid p{color:#4c534b}
 
 .offering-grid article{
-  padding:22px 0 18px;
+  padding:16px 0 14px;
   border-bottom:1px solid rgba(221,196,144,.22);
 }
 .offering-grid h3{color:#f1dfba}
@@ -198,7 +198,7 @@ p{margin:0 0 16px;font-size:1.05rem}
 .minister-grid{
   display:grid;
   grid-template-columns:360px minmax(0,1fr);
-  gap:56px;
+  gap:42px;
   align-items:center;
 }
 .portrait-frame{
@@ -248,7 +248,7 @@ input:focus,textarea:focus{
 }
 .fine-print{
   max-width:760px;
-  margin:28px auto 0;
+  margin:22px auto 0;
   padding-top:18px;
   border-top:1px solid rgba(112,95,63,.18);
   color:#686153;
@@ -256,7 +256,7 @@ input:focus,textarea:focus{
 }
 
 .site-footer{
-  padding:24px 0;
+  padding:20px 0;
   background:var(--forest-deep);
   color:#d8cfbf;
 }
@@ -272,17 +272,17 @@ input:focus,textarea:focus{
   .hero-inner{
     min-height:auto;
     grid-template-columns:300px minmax(0,1fr);
-    gap:34px;
-    padding:46px 0 58px;
+    gap:26px;
+    padding:34px 0 42px;
   }
   .minister-grid{
     grid-template-columns:300px minmax(0,1fr);
-    gap:36px;
+    gap:28px;
   }
 }
 
 @media (max-width:720px){
-  .section{padding:60px 0}
+  .section{padding:48px 0}
   .nav-links{display:none}
   .hero-inner,
   .two-up,
@@ -292,7 +292,7 @@ input:focus,textarea:focus{
   }
   .hero-inner{text-align:left}
   .hero-seal{order:-1}
-  .hero-seal img{width:250px}
+  .hero-seal img{width:300px}
   .portrait-frame{max-width:320px}
   .minister-copy{text-align:left}
   .button-row{flex-direction:column}
