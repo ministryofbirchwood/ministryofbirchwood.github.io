@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Ministry of Birchwood is a non-denominational ministry offering modern rituals for an ancient belonging.">
+  <meta name="theme-color" content="#102117">
   <title>Ministry of Birchwood</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
   <header class="hero" id="home">
@@ -19,6 +20,17 @@
         <a href="#contact">Contact</a>
       </div>
     </nav>
+
+    <div class="birch-scene" aria-hidden="true">
+      <div class="birch-trunk trunk-one">
+        <svg class="carving" viewBox="0 0 100 220">
+          <circle cx="50" cy="36" r="17"></circle>
+          <path d="M50 70v112M50 88l-24 26M50 88l24 26M50 120l-20 22M50 120l20 22M50 154l-16 18M50 154l16 18"></path>
+          <path d="M42 182h16"></path>
+        </svg>
+      </div>
+      <div class="birch-trunk trunk-two"></div>
+    </div>
 
     <div class="hero-inner wrap">
       <div class="hero-seal">
@@ -40,17 +52,28 @@
   <main>
     <section class="section cream" id="about">
       <div class="wrap two-up about-grid">
-        <article class="quiet-card">
+        <article class="paper-card about-card">
           <p class="section-kicker">About the ministry</p>
           <h2>A place for meaning without dogma.</h2>
           <p>Ministry of Birchwood is a non-denominational ministry rooted in respect for nature, humanity, creativity and the quiet mysteries of life.</p>
           <p>We hold space for beginnings, endings, transitions and everything in between through meaningful, inclusive and personal ritual.</p>
           <p>Our approach is grounded, compassionate and open to people of any faith or none.</p>
+
+          <svg class="botanical corner-branch" viewBox="0 0 220 140" aria-hidden="true">
+            <path d="M16 126C76 104 107 76 158 20"></path>
+            <ellipse cx="54" cy="103" rx="20" ry="8" transform="rotate(-26 54 103)"></ellipse>
+            <ellipse cx="83" cy="85" rx="19" ry="8" transform="rotate(26 83 85)"></ellipse>
+            <ellipse cx="112" cy="62" rx="18" ry="8" transform="rotate(-31 112 62)"></ellipse>
+            <ellipse cx="138" cy="42" rx="17" ry="7" transform="rotate(28 138 42)"></ellipse>
+            <ellipse cx="160" cy="21" rx="15" ry="7" transform="rotate(-28 160 21)"></ellipse>
+          </svg>
         </article>
 
-        <article class="quiet-card quote-card">
-          <p>“Ritual is a way of saying this moment matters.”</p>
-        </article>
+        <aside class="seal-feature">
+          <img src="assets/birchwood-seal.png" alt="" aria-hidden="true">
+          <p class="seal-strap">People • Place • Ritual • The Living World</p>
+          <blockquote>“Ritual is a way of saying this moment matters.”</blockquote>
+        </aside>
       </div>
     </section>
 
@@ -59,118 +82,124 @@
         <p class="section-kicker centred">Our principles</p>
         <h2 class="centred">What Birchwood holds to be true.</h2>
 
-        <div class="two-up item-grid">
+        <div class="two-up symbol-grid">
           <article>
-            <h3>Belong to nature</h3>
-            <p>We belong to the living world, not apart from it. Attention, humility and care matter.</p>
+            <svg class="line-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M50 10C27 13 14 25 15 48c21 1 33-11 35-38Z"></path><path d="M18 45c10-11 19-19 30-28M31 34l-1-13M38 28l10 1"></path></svg>
+            <div><h3>Belong to nature</h3><p>Human life is one strand within a much older living world. We should move through it with attention, humility and care.</p></div>
           </article>
+
           <article>
-            <h3>Honour the cycles</h3>
-            <p>Growth and decay, joy and grief, darkness and return all belong to the same pattern.</p>
+            <svg class="line-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M34 12c-13-2-23 9-21 21 2 12 16 18 26 11 9-6 10-19 3-26-6-6-16-5-21 1-5 6-2 15 4 18 6 4 14 0 15-6 1-5-4-9-8-7"></path></svg>
+            <div><h3>Honour the cycles</h3><p>Beginnings and endings, growth and decay, grief and joy, darkness and return all belong to the same pattern.</p></div>
           </article>
+
           <article>
-            <h3>Make room for mystery</h3>
-            <p>Not everything meaningful needs to be explained away. Wonder deserves its place.</p>
+            <svg class="line-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 8l4 16 14-8-8 14 16 4-16 4 8 14-14-8-4 16-4-16-14 8 8-14-16-4 16-4-8-14 14 8 4-16Z"></path></svg>
+            <div><h3>Make room for mystery</h3><p>Not everything meaningful needs to be explained, measured or reduced. Wonder, intuition, imagination and the unknown deserve a place alongside reason.</p></div>
           </article>
+
           <article>
-            <h3>Kindness with truth</h3>
-            <p>Compassion matters, but so do honesty, boundaries and responsibility.</p>
+            <svg class="line-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M15 50c8-8 16-16 34-36"></path><path d="M24 40c-10 1-15 6-16 15 9 0 15-5 16-15ZM34 30c-7-9-6-16 2-21 6 7 6 14-2 21ZM42 23c10 0 16-5 17-14-9 0-15 5-17 14Z"></path></svg>
+            <div><h3>Kindness without surrendering truth</h3><p>Compassion matters, but so do honesty, boundaries and responsibility. Kindness is not the same as submission.</p></div>
           </article>
+
           <article>
-            <h3>Create meaning deliberately</h3>
-            <p>Story, ritual, art and remembrance give shape to what modern life often flattens.</p>
+            <svg class="line-icon" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="21" r="10"></circle><circle cx="21" cy="40" r="10"></circle><circle cx="43" cy="40" r="10"></circle></svg>
+            <div><h3>Create meaning deliberately</h3><p>Ritual, art, story, music, gathering and remembrance can give shape to experiences that modern life often leaves flattened or unnamed.</p></div>
           </article>
+
           <article>
-            <h3>Leave things gentler</h3>
-            <p>People, places, creatures and communities should be better for our having been there.</p>
+            <svg class="line-icon" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="12"></circle><path d="M32 5v10M32 49v10M5 32h10M49 32h10M13 13l7 7M44 44l7 7M51 13l-7 7M20 44l-7 7"></path></svg>
+            <div><h3>Leave things gentler</h3><p>People, animals, places and communities should be treated as though our presence matters, because it does.</p></div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section forest" id="offerings">
+    <section class="section forest offerings-section" id="offerings">
       <div class="wrap">
-        <p class="section-kicker light centred">Offerings</p>
+        <p class="section-kicker light centred">Our offerings</p>
         <h2 class="centred light">Ritual for the moments that matter.</h2>
 
         <div class="two-up offering-grid">
           <article>
-            <h3>Blessings</h3>
-            <p>Homes, pets, gardens, boats, new beginnings and the ordinary things that quietly carry meaning.</p>
+            <svg class="offering-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M10 30 32 11l22 19"></path><path d="M16 27v26h32V27M27 53V37h10v16"></path></svg>
+            <div><h3>Blessings</h3><p>Homes, boats, pets, gardens, new beginnings and the ordinary things that quietly carry meaning.</p></div>
           </article>
           <article>
-            <h3>Naming and welcoming</h3>
-            <p>Warm, personal ceremonies for children, families, names and new chapters.</p>
+            <svg class="offering-icon" viewBox="0 0 64 64" aria-hidden="true"><circle cx="25" cy="32" r="15"></circle><circle cx="39" cy="32" r="15"></circle></svg>
+            <div><h3>Naming, commitment and renewal</h3><p>Naming ceremonies, vow renewals, handfastings, commitment rituals and shared thresholds.</p></div>
           </article>
           <article>
-            <h3>Vow renewals and commitment</h3>
-            <p>Non-legal ceremonies marking love, devotion, recommitment and shared thresholds.</p>
+            <svg class="offering-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 53V29"></path><path d="M32 30C18 30 13 21 17 12c8 0 13 4 15 10 2-6 8-10 15-10 5 9 0 18-15 18Z"></path><path d="M22 53h20"></path></svg>
+            <div><h3>Funerals and memorials</h3><p>Personal, grounded ceremonies that honour a life, hold grief with dignity and make room for memory.</p></div>
           </article>
           <article>
-            <h3>Funerals and memorials</h3>
-            <p>Thoughtful services that honour grief, memory and the particular life being remembered.</p>
+            <svg class="offering-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M50 10C27 13 14 25 15 48c21 1 33-11 35-38Z"></path><path d="M18 45c10-11 19-19 30-28"></path></svg>
+            <div><h3>Life transitions</h3><p>Personal ceremonies for beginnings, endings, recovery, separation, renewal and new chapters.</p></div>
           </article>
           <article>
-            <h3>Life transitions</h3>
-            <p>Rituals for separation, recovery, moving, endings, beginnings and other changes that deserve recognition.</p>
+            <svg class="offering-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M44 10c-16 2-27 14-27 28 0 9 5 14 12 16-3-4-4-8-4-12 0-15 8-26 19-32Z"></path></svg>
+            <div><h3>Seasonal gatherings</h3><p>Nature-based reflections and rituals acknowledging the turning year, light, darkness and the rhythms around us.</p></div>
           </article>
           <article>
-            <h3>Seasonal and bespoke gatherings</h3>
-            <p>Custom ceremonies and reflections shaped around people, place, story and the turning year.</p>
+            <svg class="offering-icon" viewBox="0 0 64 64" aria-hidden="true"><path d="M16 35h32l-5 17H21l-5-17Z"></path><path d="M25 30c-7-8 5-10 0-18M34 30c-7-8 5-10 0-18M43 30c-7-8 5-10 0-18"></path></svg>
+            <div><h3>Bespoke ritual</h3><p>A ceremony can be created around almost any meaningful moment that deserves more than a shrug and a calendar notification.</p></div>
           </article>
         </div>
       </div>
     </section>
 
     <section class="section cream" id="minister">
-      <div class="wrap minister-grid">
+      <div class="wrap two-up minister-grid">
         <div class="portrait-frame">
           <img src="assets/reverend-birch.png" alt="Portrait of Rev. Nicholas Paul Birch in a birch grove">
         </div>
-
         <div class="minister-copy">
           <p class="section-kicker">Meet the minister</p>
           <h2>Rev. Nicholas Paul Birch</h2>
           <p class="minister-subhead">Ordained Minister, Universal Life Church<br>Founder, Ministry of Birchwood</p>
           <p>Rev. Nicholas Birch is an ordained minister of the Universal Life Church and founder of the Ministry of Birchwood. His approach draws on nature, creativity, ritual and a lifelong fascination with the old symbolic traditions humans have used to make sense of change, loss, belonging and wonder.</p>
           <p>Birchwood is grounded rather than dogmatic, personal rather than prescribed, and shaped around the people, places and stories involved. It welcomes people of any faith or none at all.</p>
+          <svg class="botanical minister-branch" viewBox="0 0 220 90" aria-hidden="true">
+            <path d="M12 78C73 67 118 46 199 10"></path>
+            <ellipse cx="59" cy="63" rx="18" ry="7" transform="rotate(-20 59 63)"></ellipse>
+            <ellipse cx="92" cy="52" rx="17" ry="7" transform="rotate(26 92 52)"></ellipse>
+            <ellipse cx="129" cy="37" rx="16" ry="7" transform="rotate(-22 129 37)"></ellipse>
+            <ellipse cx="164" cy="23" rx="15" ry="6" transform="rotate(24 164 23)"></ellipse>
+          </svg>
         </div>
       </div>
     </section>
 
     <section class="section parchment" id="contact">
-      <div class="wrap contact-wrap">
-        <p class="section-kicker centred">Contact</p>
-        <h2 class="centred">Get in touch</h2>
-        <p class="contact-intro centred">If you’d like to discuss a ceremony, blessing, memorial or bespoke ritual, send a message below.</p>
+      <div class="wrap two-up contact-grid">
+        <aside class="quote-panel">
+          <p class="quote-mark">“</p>
+          <blockquote>Ritual is a way of saying<br>this moment matters.</blockquote>
+          <div class="leaf-divider">❦</div>
+          <p class="quiet-line">For people, places and all the in-between.</p>
+        </aside>
 
-        <form action="https://formspree.io/f/mdekvaqr" method="POST" class="contact-form">
-          <div class="form-row">
-            <label>
-              <span>Name</span>
-              <input type="text" name="name" required>
-            </label>
-            <label>
-              <span>Email</span>
-              <input type="email" name="email" required>
-            </label>
-          </div>
+        <div class="contact-panel">
+          <p class="section-kicker">Get in touch</p>
+          <h2>Tell me what you’re marking.</h2>
+          <p>If you’d like to discuss a ceremony, blessing, memorial or bespoke ritual, send a message below.</p>
 
-          <label>
-            <span>What are you enquiring about?</span>
-            <input type="text" name="subject">
-          </label>
-
-          <label>
-            <span>Message</span>
-            <textarea name="message" rows="7" required></textarea>
-          </label>
-
-          <button type="submit" class="button dark-button">Send enquiry</button>
-        </form>
-
-        <p class="fine-print centred">Ministry of Birchwood is a non-denominational ministry. In Australia, legal marriages must be solemnised by an authorised marriage celebrant. Ministry of Birchwood does not currently provide statutory marriage solemnisation.</p>
+          <form action="https://formspree.io/f/mdekvaqr" method="POST" class="contact-form">
+            <div class="form-row">
+              <label><span>Name</span><input type="text" name="name" required></label>
+              <label><span>Email</span><input type="email" name="email" required></label>
+            </div>
+            <label><span>What are you enquiring about?</span><input type="text" name="subject"></label>
+            <label><span>Message</span><textarea name="message" rows="6" required></textarea></label>
+            <input type="text" name="_gotcha" class="honeypot" tabindex="-1" autocomplete="off">
+            <button type="submit" class="button dark-button">Send enquiry</button>
+          </form>
+        </div>
       </div>
+
+      <p class="fine-print wrap centred">Ministry of Birchwood is a non-denominational ministry. In Australia, legal marriages must be solemnised by an authorised marriage celebrant. Ministry of Birchwood does not currently provide statutory marriage solemnisation.</p>
     </section>
   </main>
 
@@ -181,8 +210,6 @@
     </div>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
