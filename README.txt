@@ -1,16 +1,24 @@
-MINISTRY OF BIRCHWOOD WEBSITE - V2
+MINISTRY OF BIRCHWOOD - SITE V4
 
-This package contains a more polished one-page version of the Birchwood site.
+This version fixes the main issues from the previous pass:
+- removed fake extra rings around the seal
+- removed the cheap illustrated birch-tree and blobby flourishes
+- restored a real birch-grove hero image
+- kept the small gold symbols for principles and offerings
+- added only restrained line-drawn gold ornaments as section anchors
+- removed the middle name 'Paul' everywhere
 
-Files:
+Files included:
 - index.html
 - styles.css
+- assets/hero-birch-grove.png
 - assets/birchwood-seal.png
 - assets/reverend-birch.png
 
-To update your GitHub Pages site:
-1. Open your GitHub repository.
-2. Click Add file > Upload files.
-3. Drag in these files and allow GitHub to replace the existing ones.
-4. Commit changes directly to main.
-5. Wait a minute or two for GitHub Pages to rebuild.
+To update GitHub Pages:
+1. unzip this package
+2. open your GitHub repo
+3. upload index.html, styles.css and the assets folder
+4. allow replacements
+5. commit to main
+6. wait a minute and refresh the site
